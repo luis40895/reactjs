@@ -1,0 +1,30 @@
+{
+  "name": "reactjs-sample",
+  "version": "1.0.0",
+  "description": "reactjs & webpack sample",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --config webpack.dev.config.js --mode development",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.dev.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
