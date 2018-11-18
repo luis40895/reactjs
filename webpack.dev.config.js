@@ -19,9 +19,6 @@ let config = {
                 test: /\.jsx?$/,
                 loader: 'babel-loader',
                 exclude: /node_modules/,
-                query: {
-                    presets: ['@babel/preset-env', '@babel/preset-react']
-                }
             },
             {
                 test: /.css$/,
